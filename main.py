@@ -339,3 +339,176 @@
 #         a = -1
 #     elif a == -1:
 #         a = 0
+
+# data = []
+# num = int(input("Enter the number of times : "))
+# for i in range(num):
+#     b = int(input(" Enter Number : "))
+#     data.append(b)
+
+# newlist = [] 
+# duplist = [] 
+# for i in data:
+#     if i not in newlist:
+#         newlist.append(i)
+#     else:
+#         duplist.append(i) 
+# print(f"Duplicates : {duplist}")
+
+# num = int(input("Enter number of students: "))
+# x = 1
+# students_marks = []
+# while x <= num:
+#     Print("enter marks of student: \n")
+#     nepali = int(input("Enter nepali marks: "))
+#     english = int(input("Enter english marks: "))
+#     computer = int(input("Enter computer marks: "))
+#     math = int(input("Enter math marks: "))
+#     science = int(input("Enter science marks: "))
+#     total = nepali + english + computer + math + science
+#     students_marks.append(total)
+#     x += 1
+# gre = 0
+# for mrk in students_marks:
+#     if mrk > gre:
+#         gre = mrk
+# print(f"highest mark is:{gre} ")
+
+# gre = 0
+# sum = 0
+# for i in data:
+#     for j in i:
+#         for k in j:
+#             sum = sum + k
+#             if k > gre:
+#                 gre = k
+# print(f"greatest is {gre}")
+# print(f"sum is {sum}")
+
+# data = [
+#         [1, 2, 3, 4, 5],
+#         [11, 12, 13, 14, 15],
+#         [81, 92, 93, 49, 95]
+
+# ]
+# for i in range(5):
+#     sum = 0
+#     for j in range(3):
+#         sum = data[j][i] + sum
+#     print (sum)
+
+# data = [
+#     {'name': 'ram', 'age': 20,'gender':'male','status':True},
+#     {'name': 'sita', 'age': 21,'gender':'female','status':True},
+#     {'name': 'hari', 'age': 21,'gender':'male','status':True},
+#     {'name': 'gita', 'age': 21,'gender':'female','status':False},
+#     {'name': 'madan', 'age': 21,'gender':'male','status':False},
+# ]
+# ta = 0
+# tina = 0
+# tam = 0
+# tinam = 0
+# taf = 0
+# tinaf = 0
+
+# a = 4
+# while a >= 0:
+#     if data[a]['status'] == True:
+#         ta += 1
+#         if data[a]['gender'] == "male":
+#             tam += 1
+#         else:
+#             taf += 1
+#     else:
+#         tina += 1
+#         if data[a]['gender'] == "male":
+#             tinam += 1
+#         else:
+#             tinaf += 1
+#     a -= 1
+
+# print("total users: ",len(data))
+# print("total active users: ",ta)
+# print("total inactive users: ",tina)
+# print("total active male users: ",tam)
+# print("total inactive male users: ",tinam)
+# print("total active female users: ",taf)
+# print("total inactive female users: ",tinaf)
+
+# data = [
+#     [1, 2, 3, 4, 5],
+#     [11, 12, 13, 14, 15],
+#     [81, 92, 93, 49, 95],
+#     [89,98,89]
+# ]
+# a = 0
+# while a <= 2:
+#     b = 0
+#     while b <= 4:
+#         print(data[a][b])
+#         b += 1
+#     a += 1
+# a = 1
+# num = int(input("enter number: "))
+
+# while a <= 10:
+#     print(f"{num}*{a}={num * a}") 
+#     a += 1
+
+# a = int(input("enter a number: "))
+# b = int(input("enter another number: "))
+
+# def add(a,b):
+#     print(a+b)
+
+# def substract(a,b):
+#     print(a-b)
+
+# def multiply(a,b):
+#     print(a*b)
+
+# def divide(a,b):
+#     print(a/b)
+
+# add(a,b)
+# substract(a,b)
+# multiply(a,b)
+# divide(a,b)
+
+# def total(num):
+#     sum = 0
+#     for i in num:
+#         sum = sum + i
+#     print(sum)
+
+# even = []
+# odd = []
+
+# def even_odd(numbers):
+#     for i in numbers:
+#         if i % 2 == 0:
+#             even.append(i)
+#         else:
+#             odd.append(i)
+#     print(f"even: {even}")
+#     print(f"odd: {odd}")
+
+# even_odd([1,2,3,4,5,6,7,8,9,99])
+
+# def take_value():
+#     p = float(input("enter p: "))
+#     t = float(input("enter t: "))
+#     r = float(input("enter r: "))
+#     return [p,t,r]
+
+# def calculator():
+#     p,t,r = take_value()
+#     SI = (p*t*r)/100
+#     return SI
+
+# def display():
+#     a = calculator()
+#     print (a)
+
+# display()  
+
